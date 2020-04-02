@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CBDatabase'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple wrapper around CoreData'
   s.description      = 'A simple wrapper around CoreData. Developed by Coinbase Wallet team.'
 
