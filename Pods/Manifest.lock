@@ -3,13 +3,11 @@ PODS:
     - SipHash (~> 1.2)
   - Nimble (7.3.1)
   - Quick (1.3.2)
-  - RxAtomic (4.4.2)
   - RxBlocking (4.3.1):
     - RxSwift (~> 4.0)
-  - RxCocoa (4.4.2):
+  - RxCocoa (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.4.2):
-    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
   - SipHash (1.2.2)
 
 DEPENDENCIES:
@@ -17,8 +15,8 @@ DEPENDENCIES:
   - Nimble (~> 7.3.1)
   - Quick (~> 1.3.2)
   - RxBlocking (~> 4.3.1)
-  - RxCocoa (~> 4.4.1)
-  - RxSwift (~> 4.4.1)
+  - RxCocoa (~> 4.5.0)
+  - RxSwift (~> 4.5.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -28,7 +26,6 @@ SPEC REPOS:
     - RxBlocking
     - SipHash
   trunk:
-    - RxAtomic
     - RxCocoa
     - RxSwift
 
@@ -36,12 +33,11 @@ SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
   Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
-  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
   RxBlocking: 64c051285261ca2339481e91b5f70eb06b03660a
-  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
-  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
 
-PODFILE CHECKSUM: 4a35224eb15650057ca299bfb5b97a9e40ffd925
+PODFILE CHECKSUM: 3bb06934699e32d1522520c9adc5a3f2f23c7c8e
 
 COCOAPODS: 1.9.1

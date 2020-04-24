@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.source_files = 'CBDatabase/**/*.swift'
 
-  s.dependency 'RxSwift', '~> 4.4.0'
-  s.dependency 'RxCocoa', '~> 4.4.0'
+  s.dependency 'RxSwift', '~> 4.5.0'
+  s.dependency 'RxCocoa', '~> 4.5.0'
 end
